@@ -13,8 +13,6 @@ if img is None:
 # Create output folder
 os.makedirs("results", exist_ok=True)
 
-
-# Function to apply blockwise averaging
 def blockwise_average(img, block_size):
     h, w = img.shape
     result = img.copy()
