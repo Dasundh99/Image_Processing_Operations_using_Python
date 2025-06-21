@@ -4,7 +4,7 @@ import os
 import matplotlib.pyplot as plt
 
 # Load grayscale image
-img = cv2.imread('Images/img.png', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('Images/input.jpeg', cv2.IMREAD_GRAYSCALE)
 
 if img is None:
     print("Error: Image not found!")

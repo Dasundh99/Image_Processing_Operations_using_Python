@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 import os
 
-img = cv2.imread('Images/img.png', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('Images/input.jpeg', cv2.IMREAD_GRAYSCALE)
 
 if img is None:
     print("Error: Image not found. Please check the path.")
